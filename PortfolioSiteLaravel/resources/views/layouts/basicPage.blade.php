@@ -8,13 +8,12 @@
 <body>
   <div id="container">
     <div id="header">
-      <div id="titleColumn">Being a full stack developer in Vancouver</div>
+      <div id="titleColumn"><h1>Being a full stack developer, <br>Yony in Vancouver</h1></div>
       <div id="categoryColumn">
         <div class="categoryItem1"><a href="/php">PHP</a></div>
-        <div class="categoryItem2"><a href="#">Scala</a></div>
-        <div class="categoryItem3"><a href="#">HTML+CSS</a></div>
-        <div class="categoryItem4"><a href="#">Event</a></div>
-        <div class="categoryItem5"><a href="#">Interested</a></div>
+        <div class="categoryItem2"><a href="/scala">Scala</a></div>
+        <div class="categoryItem4"><a href="/event">Event Participation</a></div>
+        <div class="categoryItem5"><a href="/schedule">Schedule</a></div>
       </div>
     </div>
 
@@ -23,7 +22,7 @@
       <div id="siderBar">side data</div>
     </div>
 
-    <div id="footer">footer</div>
+    <div id="footer">&copy; 2016 Being a full stack developer, Yony in Vancouver</div>
   </div>
 </body>
 </html>
