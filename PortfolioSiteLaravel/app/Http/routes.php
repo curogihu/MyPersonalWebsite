@@ -11,6 +11,13 @@
 |
 */
 
+Route::get('/', 'DisplayController@displayTopPage');
+Route::get('/php', 'DisplayController@displayPhpPage');
+Route::get('/scala', 'DisplayController@displayScalaPage');
+Route::get('/event', 'DisplayController@displayEventPage');
+Route::get('/schedule', 'DisplayController@displaySchedulePage');
+
+/*
 Route::get('/', function () {
     return view('topPage');
 });
@@ -18,6 +25,19 @@ Route::get('/', function () {
 Route::get('/php', function () {
     return view('phpPage');
 });
+
+Route::get('/scala', function () {
+    return view('phpPage');
+});
+
+Route::get('/event', function () {
+    return view('phpPage');
+});
+
+Route::get('/schedule', function () {
+    return view('phpPage');
+});
+*/
 
 /*
 |--------------------------------------------------------------------------
