@@ -105,12 +105,13 @@ body {
   order: 1;
   -webkit-order: 1;
 
-  flex-basis: 80%;
-  -webkit-flex-basis: 80%;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
 }
 
+/*
 #siderBar {
-  /* background-color: grey; */
+  background-color: grey;
   width: 10%;
 
   order: 2;
@@ -119,6 +120,7 @@ body {
   flex-basis: 20%;
   -webkit-flex-basis: 20%;
 }
+*/
 
 /* main nest 3 */
 #footer {
@@ -127,8 +129,8 @@ body {
   /* background-color: purple; */
   width: 100%;
 
-  order: 3;
-  -webkit-order: 3;
+  order: 2;
+  -webkit-order: 2;
 
   flex-basis: 100%;
   -webkit-flex-basis: 100%;

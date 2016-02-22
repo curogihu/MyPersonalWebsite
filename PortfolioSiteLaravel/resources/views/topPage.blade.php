@@ -7,32 +7,30 @@
 
     <h2>Education</h2>
     <div class="descriptionBlock">
-      <p>2013/04 - 2014/09<br>
-        School Name: Software Developer<br>
-        School Location: Tokyo, Japan<br>
-        Course Name: aaaaaaaaaa<br>
-        Learning Subject: aaaaaaaaaa<br>
+      <p>2014/01 - Current<br>
+        School Name: ITD Canada<br>
+        School Location: Vancouver, BC, Canada<br>
+        Course Name: IT with Co-op, Graphic and Web Development<br>
+        Learning Subject: HTML, CSS, JavaScript, JQuery, C, C++, C#, VB.Net, ASP, ASP.Net, PHP, SQL<br>
       <p>
     </div>
 
     <div class="descriptionBlock">
-      <p>2013/04 - 2014/09<br>
-        School Name: Software Developer<br>
-        School Location: Tokyo, Japan<br>
-        Course Name: aaaaaaaaaa<br>
-        Learning Subject: aaaaaaaaaa<br>
+      <p>2003/04 - 2005/03<br>
+        School Name: The Information Science College<br>
+        School Location: Yokohama, Kanagawa, Japan<br>
+        Course Name: Information Processing<br>
+        Learning Subject: HTML, CSS, JavaScript, C, Java, PHP<br>
       <p>
     </div>
 
-
     <h2>Past work Experiences</h2>
-
     <div class="descriptionBlock">
       <p>2013/04 - 2014/09<br>
           Role: Software Developer<br>
           Company Name: Softbank Mobile<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/jobs/softbankmobile">Important task</a>
+          <a href="/job/softbankmobile">Important task</a>
       <p>
     </div>
 
@@ -41,7 +39,7 @@
           Role: Web and Software Developer<br>
           Company Name: Pasco Corporation<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/jobs/pasco">Important task</a>
+          <a href="/job/pasco">Important task</a>
       <p>
     </div>
 
@@ -50,7 +48,7 @@
           Role: Web and Software Developer<br>
           Company Name: SBI Business Support<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/jobs/sbi">Important task</a>
+          <a href="/job/sbi">Important task</a>
       <p>
     </div>
 
@@ -59,7 +57,7 @@
           Role: Web and Software Developer<br>
           Company Name: Tri-force Corporation<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/jobs/triforce">Important task</a>
+          <a href="/job/triforce">Important task</a>
       <p>
     </div>
 
@@ -68,7 +66,7 @@
           Role: Web and Software Developer<br>
           Company Name: Softbank Mobile<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/jobs/nii">Important task</a>
+          <a href="/job/nii">Important task</a>
       <p>
     </div>
   </div>
