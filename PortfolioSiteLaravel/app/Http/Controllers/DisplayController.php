@@ -33,4 +33,9 @@ class DisplayController extends Controller
     {
       return view('phpPage');
     }
+
+    public function displayJobPage($companyName){
+      //echo $companyName;
+      return view('jobPage')->with('companyName', $companyName);
+    }
 }
