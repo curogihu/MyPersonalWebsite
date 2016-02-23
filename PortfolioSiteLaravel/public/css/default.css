@@ -3,18 +3,22 @@ body {
 }
 
 a:link {
-  color:grey; text-decoration:none;
+  color: white;
+  text-decoration:none;
 }
 a:visited {
-  color:grey; text-decoration:none;
+  color: white;
+  text-decoration:none;
 }
 
 a:hover {
-  color:grey; text-decoration:none;
+  color: white;
+  text-decoration:none;
 }
 
 a:active {
-  color:grey; text-decoration:none;
+  color: white;
+  text-decoration:none;
 }
 
 #container {
@@ -68,6 +72,8 @@ a:active {
 
 
 .categoryItem1 {
+  background-color: blue;
+
   order: 1;
   -webkit-order: 1;
 
@@ -76,6 +82,8 @@ a:active {
 }
 
 .categoryItem2 {
+  background-color: blue;
+
   order: 2;
   -webkit-order: 2;
 
@@ -84,6 +92,8 @@ a:active {
 }
 
 .categoryItem3 {
+  background-color: black;
+
   order: 3;
   -webkit-order: 3;
 
@@ -92,6 +102,8 @@ a:active {
 }
 
 .categoryItem4 {
+  background-color: purple;
+
   order: 4;
   -webkit-order: 4;
 
@@ -100,6 +112,8 @@ a:active {
 }
 
 .categoryItem5 {
+  background-color: green;
+
   order: 5;
   -webkit-order: 5;
 

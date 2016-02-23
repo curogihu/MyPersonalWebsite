@@ -9,8 +9,8 @@
             alt="The image of League of Lengteds information site">
     </a>
     <p>
-      <a href="https://github.com/curogihu/LoLTrendResearch">Site Name: LoL Trend Research</a>
-      aaaaaaaaaaaaaaaa
+      Site Name: LoL Trend Research<br>
+      Feature: aaaaaaaaaaaaaaaa
     </p>
   </div>
 @endsection
