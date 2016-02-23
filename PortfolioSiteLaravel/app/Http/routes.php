@@ -12,11 +12,11 @@
 */
 
 Route::get('/', 'DisplayController@displayTopPage');
+
 Route::get('/php', 'DisplayController@displayPhpPage');
 Route::get('/scala', 'DisplayController@displayScalaPage');
-Route::get('/event', 'DisplayController@displayEventPage');
+Route::get('/eventpartcipation', 'DisplayController@displayEventPartcipationPage');
 Route::get('/schedule', 'DisplayController@displaySchedulePage');
-
 
 Route::get('/job/{companyName}', 'DisplayController@displaySchedulePage');
 

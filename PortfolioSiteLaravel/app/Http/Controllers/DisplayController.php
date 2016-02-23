@@ -21,20 +21,21 @@ class DisplayController extends Controller
 
     public function displayScalaPage()
     {
-      return view('phpPage');
+      return view('scalaPage');
     }
 
-    public function displayEventPage()
+    public function displayEventPartcipationPage()
     {
-      return view('phpPage');
+      return view('eventParticipationPage');
     }
 
     public function displaySchedulePage()
     {
-      return view('phpPage');
+      return view('schedulePage');
     }
 
-    public function displayJobPage($companyName){
+    public function displayJobPage($companyName)
+    {
       //echo $companyName;
       return view('jobPage')->with('companyName', $companyName);
     }
