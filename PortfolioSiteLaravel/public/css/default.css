@@ -3,22 +3,44 @@ body {
 }
 
 a:link {
-  color: white;
   text-decoration:none;
 }
+
 a:visited {
-  color: white;
   text-decoration:none;
 }
 
 a:hover {
-  color: white;
+  background-color: grey;
   text-decoration:none;
 }
 
 a:active {
-  color: white;
   text-decoration:none;
+}
+
+a.overwhite{
+    background-color:#ffffff;
+    display:block;
+}
+
+a.overwhite:hover img{
+    cursor:pointer;
+    filter: alpha(opacity=60);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
+    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.6;              /* Safari 1.x */
+    opacity:0.6;
+    zoom:1;
+}
+
+/* anchor css */
+#header a {
+ color: white;
+}
+
+.descriptionBlock a {
+  color: red;
 }
 
 #container {
@@ -70,10 +92,11 @@ a:active {
   -webkit-flex-basis: 100%;
 }
 
+[class^="categoryItem"] {
+  background-color: black;
+}
 
 .categoryItem1 {
-  background-color: blue;
-
   order: 1;
   -webkit-order: 1;
 
@@ -82,8 +105,6 @@ a:active {
 }
 
 .categoryItem2 {
-  background-color: blue;
-
   order: 2;
   -webkit-order: 2;
 
@@ -92,8 +113,6 @@ a:active {
 }
 
 .categoryItem3 {
-  background-color: black;
-
   order: 3;
   -webkit-order: 3;
 
@@ -102,8 +121,6 @@ a:active {
 }
 
 .categoryItem4 {
-  background-color: purple;
-
   order: 4;
   -webkit-order: 4;
 
@@ -112,8 +129,6 @@ a:active {
 }
 
 .categoryItem5 {
-  background-color: green;
-
   order: 5;
   -webkit-order: 5;
 

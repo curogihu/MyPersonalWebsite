@@ -2,8 +2,9 @@
 
 @section('contents')
   <div id="description">
-    <p>Name: Yosuke Ito</p>
-    <p>Language: Japanese, English</p>
+    <p>Name: Yosuke Ito<br>
+      Language: Japanese, English
+    </p>
 
     <h2>Education</h2>
     <div class="descriptionBlock">
@@ -24,49 +25,49 @@
       <p>
     </div>
 
-    <h2>Past work Experiences</h2>
+    <h2>Work Experiences</h2>
     <div class="descriptionBlock">
       <p>2013/04 - 2014/09<br>
-          Role: Software Developer<br>
+          Role: VBA Software Developer<br>
           Company Name: Softbank Mobile<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/job/softbankmobile">Important task</a>
+          <a href="/job/softbankmobile">Link to memoriable task</a>
       <p>
     </div>
 
     <div class="descriptionBlock">
-      <p>2013/04 - 2014/09<br>
-          Role: Web and Software Developer<br>
+      <p>2011 / 11 – 2012 / 05<br>
+          Role: Web and VBA Software Developer<br>
           Company Name: Pasco Corporation<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/job/pasco">Important task</a>
+          <a href="/job/pasco">Link to memoriable task</a>
       <p>
     </div>
 
     <div class="descriptionBlock">
-      <p>2013/04 - 2014/09<br>
-          Role: Web and Software Developer<br>
+      <p>2010/12 - 2011/05<br>
+          Role: Call Operator and VBA Software Developer<br>
           Company Name: SBI Business Support<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/job/sbi">Important task</a>
+          <a href="/job/sbi">Link to memoriable task</a>
       <p>
     </div>
 
     <div class="descriptionBlock">
-      <p>2013/04 - 2014/09<br>
-          Role: Web and Software Developer<br>
+      <p>2007/08 - 2009/03<br>
+          Role: Web and VBA Software Developer<br>
           Company Name: Tri-force Corporation<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/job/triforce">Important task</a>
+          <a href="/job/triforce">Link to memoriable task</a>
       <p>
     </div>
 
     <div class="descriptionBlock">
       <p>2013/04 - 2014/09<br>
-          Role: Web and Software Developer<br>
+          Role: Office jobs and VBA Software Developer<br>
           Company Name: Softbank Mobile<br>
           Company Location: Tokyo, Japan<br>
-          <a href="/job/nii">Important task</a>
+          <a href="/job/nii">Link to memoriable task</a>
       <p>
     </div>
   </div>
