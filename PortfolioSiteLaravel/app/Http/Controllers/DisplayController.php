@@ -29,9 +29,9 @@ class DisplayController extends Controller
       return view('eventParticipationPage');
     }
 
-    public function displaySchedulePage()
+    public function displayOtherPage()
     {
-      return view('schedulePage');
+      return view('otherPage');
     }
 
     public function displayJobPage($companyName)
