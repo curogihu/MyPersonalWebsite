@@ -4,7 +4,7 @@
     <div class="categoryItem1"><a href="/">Carrier</a></div>
     <div class="categoryItem2"><a href="/php">PHP</a></div>
     <div class="categoryItem3"><a href="/scala">Scala</a></div>
-    <div class="categoryItem4"><a href="/eventpartcipation">Event Participation</a></div>
-    <div class="categoryItem5"><a href="/schedule">Schedule</a></div>
+    <div class="categoryItem4"><a href="/otherlanguages">Other Languages</a></div>
+    <div class="categoryItem5"><a href="/eventpartcipation">Event Participation</a></div>
   </div>
 </div>
