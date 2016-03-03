@@ -17,7 +17,13 @@
       <div id="displayContent">@yield('contents')</div>
     </div>
 
+    <div class="pageUp">
+      <a href="#top" class="scroll-link"></a>
+    </div>
+
     @include('layouts.footer')
   </div>
+
+  <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.1.min.js') }}"></script>
 </body>
 </html>

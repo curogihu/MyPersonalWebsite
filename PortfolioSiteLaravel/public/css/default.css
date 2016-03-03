@@ -1,5 +1,7 @@
-body {
-  width: 800px;
+body{
+  margin:0px;          /* ページ全体のmargin */
+  padding:0px;         /* ページ全体のpadding */
+  text-align:center;   /* 下記のautoに未対応用のセンタリング */
 }
 
 ul {
@@ -19,7 +21,6 @@ a:visited {
 }
 
 a:hover {
-  background-color: grey;
   text-decoration:none;
 }
 
@@ -28,18 +29,18 @@ a:active {
 }
 
 a.overwhite{
-    background-color:#ffffff;
-    display:block;
+  background-color:#ffffff;
+  display:block;
 }
 
 a.overwhite:hover img {
-    cursor:pointer;
-    filter: alpha(opacity=60);        /* ie lt 8 */
-    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
-    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
-    -khtml-opacity: 0.6;              /* Safari 1.x */
-    opacity:0.6;
-    zoom:1;
+  cursor:pointer;
+  filter: alpha(opacity=60);        /* ie lt 8 */
+  -ms-filter: "alpha(opacity=60)";  /* ie 8 */
+  -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+  -khtml-opacity: 0.6;              /* Safari 1.x */
+  opacity:0.6;
+  zoom:1;
 }
 
 /* anchor css */
@@ -68,6 +69,8 @@ a.overwhite:hover img {
 
   flex-flow: column wrap;
   -webkit-flex-flow: column wrap;
+
+  text-align: left;
 }
 
 /* main nest 1 */
@@ -101,8 +104,8 @@ a.overwhite:hover img {
   display: -webkit-flex;
 
 /* row or column setting depends on a window side */
-  flex-flow: row wrap;
-  -webkit-flex-flow: row wrap;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
 
   order: 2;
   -webkit-order: 2;
@@ -113,46 +116,37 @@ a.overwhite:hover img {
 
 [class^="categoryItem"] {
   background-color: black;
+
+  height: 70px;
+  line-height: 70px;
+
+  flex-basis: 20%;
+  -webkit-flex-basis: 20%;
 }
 
 .categoryItem1 {
   order: 1;
   -webkit-order: 1;
-
-  flex-basis: 20%;
-  -webkit-flex-basis: 20%;
 }
 
 .categoryItem2 {
   order: 2;
   -webkit-order: 2;
-
-  flex-basis: 20%;
-  -webkit-flex-basis: 20%;
 }
 
 .categoryItem3 {
   order: 3;
   -webkit-order: 3;
-
-  flex-basis: 20%;
-  -webkit-flex-basis: 20%;
 }
 
 .categoryItem4 {
   order: 4;
   -webkit-order: 4;
-
-  flex-basis: 20%;
-  -webkit-flex-basis: 20%;
 }
 
 .categoryItem5 {
   order: 5;
   -webkit-order: 5;
-
-  flex-basis: 20%;
-  -webkit-flex-basis: 20%;
 }
 
 /* main nest 2 */
@@ -204,3 +198,47 @@ a.overwhite:hover img {
   flex-basis: 100%;
   -webkit-flex-basis: 100%;
 }
+
+.pageUp {
+  margin: 0 auto;
+  max-width: 960px;
+  height: 30px;
+  background: #fff;
+  position: relative;
+}
+
+@media (min-width: 900px) {
+
+  #container {
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 900px;
+  }
+
+  [class^="categoryItem"] h3{
+    font-size: 24px;
+    background-color: black;
+
+    height: 70px;
+    line-height: 70px;
+
+    flex-basis: 20%;
+    -webkit-flex-basis: 20%;
+  }
+
+  #categoryColumn {
+    display: flex;
+    display: -webkit-flex;
+
+  /* row or column setting depends on a window side */
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+
+    order: 2;
+    -webkit-order: 2;
+
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+}
+  }

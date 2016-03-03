@@ -8,14 +8,14 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h2>Connect to DB and display randomly the game data</h2>
+      <h3>Connect to DB and display randomly the game data</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: Scala, MySQL</p>
     </div>
 
-    <div class="screenShotCotent">
+    <div class="screenShotContent">
       <img class="screenShot"
             src="{{ URL::asset('images/noImageLogo.png') }}"
             alt="The image of League of Lengteds information site">
@@ -39,14 +39,14 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h2>Web scraping with Scala</h2>
+      <h3>Web scraping with Scala</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: Scala</p>
     </div>
 
-    <div class="screenShotCotent">
+    <div class="screenShotContent">
       <img class="screenShot"
             src="{{ URL::asset('images/noImageLogo.png') }}"
             alt="The image of League of Lengteds information site">

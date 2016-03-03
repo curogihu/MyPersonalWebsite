@@ -9,9 +9,9 @@ use App\Http\Controllers\Controller;
 
 class DisplayController extends Controller
 {
-    public function displayTopPage()
+    public function displayDeveloperPage()
     {
-      return view('topPage');
+      return view('developerPage');
     }
 
     public function displayPhpPage()
@@ -24,9 +24,9 @@ class DisplayController extends Controller
       return view('scalaPage');
     }
 
-    public function displayEventPartcipationPage()
+    public function displayHobbyPage()
     {
-      return view('eventParticipationPage');
+      return view('hobbyPage');
     }
 
     public function displayOtherPage()

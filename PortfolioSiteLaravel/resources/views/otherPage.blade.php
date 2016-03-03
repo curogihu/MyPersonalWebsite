@@ -8,14 +8,14 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h2>Sort words in a file</h2>
+      <h3>Sort words in a file</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: C</p>
     </div>
 
-    <div class="screenShotCotent">
+    <div class="screenShotContent">
       <img class="screenShot"
             src="{{ URL::asset('images/noImageLogo.png') }}"
             alt="The image of League of Lengteds information site">
@@ -38,14 +38,14 @@
   <!-- 2nd, start -->
   <div class="description">
     <div class="descriptionTitle">
-      <h2>Investigate words in input file and output a result file</h2>
+      <h3>Investigate words in input file and output a result file</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: C++</p>
     </div>
 
-    <div>
+    <div class="screenShotContent">
         <img class="screenShot"
               src="{{ URL::asset('images/noImageLogo.png') }}"
               alt="Web scraping an existed League of Legends site">
@@ -57,7 +57,7 @@
       </p>
     </div>
 
-    <div>
+    <div class="githubLink">
       <a href="https://github.com/curogihu/School_homework/blob/master/classProject/SearchAppearance.cpp">
         <span class="fa fa-github fa-3x"></span>
       </a>

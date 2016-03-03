@@ -8,14 +8,14 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h2>LoL Trend Research</h2>
+      <h3>LoL Trend Research</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: PHP, MySQL, Laravel, AngularJS, Riot API</p>
     </div>
 
-    <div class="screenShotCotent">
+    <div class="screenShotContent">
       <a href="http://loltrendresearch.xyz/" class="overwhite">
         <img class="screenShot"
               src="{{ URL::asset('images/loltrendreseachSiteImage.png') }}"
@@ -41,14 +41,14 @@
   <!-- 2nd, start -->
   <div class="description">
     <div class="descriptionTitle">
-      <h2>Web scraping an existed League of Legends site</h2>
+      <h3>Web scraping an existed League of Legends site</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: PHP, MySQL, PHP Simple HTML DOM Parser</p>
     </div>
 
-    <div>
+    <div class="screenShotContent">
         <img class="screenShot"
               src="{{ URL::asset('images/noImageLogo.png') }}"
               alt="Web scraping an existed League of Legends site">
@@ -60,7 +60,7 @@
       </p>
     </div>
 
-    <div>
+    <div class="githubLink">
       <a href="https://github.com/curogihu/LoLSearchProBuildTrend">
         <span class="fa fa-github fa-3x"></span>
       </a>
@@ -72,14 +72,14 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h2>Web scraping and posting to WordPress</h2>
+      <h3>Web scraping and posting to WordPress</h3>
     </div>
 
     <div class="usedTechnology">
       <p>Used: PHP, WordPress, PHP Simple HTML DOM Parser</p>
     </div>
 
-    <div>
+    <div class="screenShotContent">
       <img class="screenShot"
             src="{{ URL::asset('images/noImageLogo.png') }}"
             alt="The image of League of Lengteds information site">

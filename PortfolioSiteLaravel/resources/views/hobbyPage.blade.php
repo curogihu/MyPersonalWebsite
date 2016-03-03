@@ -7,7 +7,7 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h3>Anime Revolution, August 14 - 15th, 2015</h3>
+      <h3>Anime Revolution, August 13 - 16th, 2015</h3>
     </div>
 
     <div class="sentence">
@@ -31,7 +31,7 @@
   <div class="description">
 
     <div class="descriptionTitle">
-      <h3>Anime Evolution, July 17 - 19th, 2015</h3>
+      <h3>Anime Evolution, July 16 - 19th, 2015</h3>
     </div>
 
     <div class="sentence">
