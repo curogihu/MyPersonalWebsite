@@ -1,29 +1,69 @@
 @extends('layouts.basicPage')
 
 @section('contents')
-  <div class="description">
-    <a href="https://github.com/curogihu/ScalaWithMySQL" class="overwhite">
-      <img style="width: 100px; height: auto;"
-            align="left"
-            src="{{ URL::asset('images/scalaLogo.png') }}"
-            alt="Scala + MySQL">
-    </a>
-    <p>
-      Scala + MySQL<br>
-      - Based on MySQL, show data randomly summoner bought all items during a match<br>
-    </p>
-  </div>
 
+  <h2 class="pageTitle">Scala projects</h2>
+
+  <!-- 1st, start -->
   <div class="description">
-    <a href="https://github.com/curogihu/WebScrapingByScala" class="overwhite">
-      <img style="width: 100px; height: auto;"
-            align="left"
-            src="{{ URL::asset('images/scalaLogo.png') }}"
-            alt="Scala + Web scraping">
-    </a>
-    <p>
-      Web scraping with Scala<br>
-      - Web scrape a Japanese Rental properties site and show the contents on the web browser.<br>
-    </p>
+
+    <div class="descriptionTitle">
+      <h2>Connect to DB and display randomly the game data</h2>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: Scala, MySQL</p>
+    </div>
+
+    <div class="screenShotCotent">
+      <img class="screenShot"
+            src="{{ URL::asset('images/noImageLogo.png') }}"
+            alt="The image of League of Lengteds information site">
+    </div>
+
+    <div class="sentence">
+      <p>
+        Based on MySQL, show data randomly summoner bought all items during a match.
+      </p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/ScalaWithMySQL">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
   </div>
+  <!-- 1st, end -->
+
+  <!-- 2nd, start -->
+  <div class="description">
+
+    <div class="descriptionTitle">
+      <h2>Web scraping with Scala</h2>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: Scala</p>
+    </div>
+
+    <div class="screenShotCotent">
+      <img class="screenShot"
+            src="{{ URL::asset('images/noImageLogo.png') }}"
+            alt="The image of League of Lengteds information site">
+    </div>
+
+    <div class="sentence">
+      <p>
+        Web scrape a Japanese Rental properties site and show the contents on the web browser.
+      </p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/WebScrapingByScala">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div>
+  <!-- 2nd, end -->
+
 @endsection

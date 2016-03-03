@@ -2,6 +2,14 @@ body {
   width: 800px;
 }
 
+ul {
+  list-style: none;
+}
+
+.pageTitle {
+  margin-bottom: 30px;
+}
+
 a:link {
   text-decoration:none;
 }
@@ -24,7 +32,7 @@ a.overwhite{
     display:block;
 }
 
-a.overwhite:hover img{
+a.overwhite:hover img {
     cursor:pointer;
     filter: alpha(opacity=60);        /* ie lt 8 */
     -ms-filter: "alpha(opacity=60)";  /* ie 8 */
@@ -39,8 +47,19 @@ a.overwhite:hover img{
  color: white;
 }
 
+.description {
+  margin-bottom: 50px;
+}
+
 .descriptionBlock a {
   color: red;
+}
+
+.screenShot {
+   width: auto;
+   height: 200px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 #container {
