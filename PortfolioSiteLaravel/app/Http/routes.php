@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/developer', 'DisplayController@displayDeveloperPage');
+Route::get('/', 'DisplayController@displayDeveloperPage');
 
 Route::get('/php', 'DisplayController@displayPhpPage');
 Route::get('/scala', 'DisplayController@displayScalaPage');

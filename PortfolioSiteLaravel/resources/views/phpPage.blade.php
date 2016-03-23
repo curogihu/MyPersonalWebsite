@@ -98,5 +98,38 @@
     </div>
   </div>
 
-    <!-- 3rd, end -->
+  <!-- 3rd, end -->
+
+  <!-- 4th, start -->
+  <div class="description">
+
+    <div class="descriptionTitle">
+      <h3>Programming test for applying a company</h3>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: PHP</p>
+    </div>
+
+    <div class="screenShotContent">
+      <img class="screenShot"
+            src="{{ URL::asset('images/noImageLogo.png') }}"
+            alt="The image of League of Lengteds information site">
+    </div>
+
+    <div class="sentence">
+      <p>
+        This was a programming quiz for applying a company in Surrey, BC, Canada. I solved the quiz as a skill check, but didn't apply because the candidates had to be immigrant and I'm not immigrant.
+      </p>
+    </div>
+
+    <div>
+      <a href="https://github.com/curogihu/Top3000PlayersOnScrollsGuide">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 4th, end -->
+
 @endsection
