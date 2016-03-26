@@ -1,5 +1,5 @@
 <div id="header">
-  <div id="titleColumn"><h1>Being a backend developer, <br>Yony in Vancouver</h1></div>
+  <div id="titleColumn"><h1>Being a full stack web developer, <br>Yony in Vancouver</h1></div>
   <div id="categoryColumn">
     <div class="categoryItem1"><a href="/"><h3>Developer</h3></a></div>
     <div class="categoryItem2"><a href="/php"><h3>PHP</h3></a></div>
