@@ -65,4 +65,34 @@
   </div>
   <!-- 2nd, end -->
 
+  <!-- 3rd, start -->
+  <div class="description">
+    <div class="descriptionTitle">
+      <h3>Create a maze game with character like Pacman</h3>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: C#</p>
+    </div>
+
+    <div class="screenShotContent">
+        <img class="screenShot"
+              src="{{ URL::asset('images/noImageLogo.png') }}"
+              alt="Web scraping an existed League of Legends site">
+    </div>
+
+    <div class="sentence">
+      <p>
+        Create a maze game. The goal is heading from the higher left corner to the lower right corner.
+      </p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/ModifiedMazeGame">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div>
+  <!-- 3rd, end -->
+
 @endsection

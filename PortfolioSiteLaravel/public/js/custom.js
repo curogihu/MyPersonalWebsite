@@ -15,6 +15,9 @@ $(function(){
      //console.log("ok");
     //$(this).children('h3').hide();
 
+    event.preventDefault();
+    event.stopPropagation();
+
     var $this = $(this);
 
     if($this.hasClass('open')){
