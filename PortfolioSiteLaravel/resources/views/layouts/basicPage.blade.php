@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-social.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('css/default.css') }}" type="text/css">
+
+  <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.1.min.js') }}"></script>
 </head>
 <body>
   <div id="container">
@@ -24,6 +26,6 @@
     @include('layouts.footer')
   </div>
 
-  <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.1.min.js') }}"></script>
+  <script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 </body>
 </html>
