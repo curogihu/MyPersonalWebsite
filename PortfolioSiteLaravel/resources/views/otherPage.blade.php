@@ -12,7 +12,7 @@
     </div>
 
     <div class="usedTechnology">
-      <p>Used: C</p>
+      <p>Used: C [homework]</p>
     </div>
 
     <div class="screenShotContent">
@@ -42,7 +42,7 @@
     </div>
 
     <div class="usedTechnology">
-      <p>Used: C++</p>
+      <p>Used: C++ [homework]</p>
     </div>
 
     <div class="screenShotContent">
@@ -68,11 +68,39 @@
   <!-- 3rd, start -->
   <div class="description">
     <div class="descriptionTitle">
+      <h3>Airline Reservation System</h3>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: C# [homework]</p>
+    </div>
+
+    <div class="screenShotContent">
+        <img class="screenShot"
+              src="{{ URL::asset('images/noImageLogo.png') }}"
+              alt="Web scraping an existed League of Legends site">
+    </div>
+
+    <div class="sentence">
+      <p>I remembered that it was hard for novice developers because a part was beyond the course contents.</p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/AirlineReservationSystem">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div>
+  <!-- 3rd, end -->
+
+  <!-- 4th, start -->
+  <div class="description">
+    <div class="descriptionTitle">
       <h3>Create a maze game with character like Pacman</h3>
     </div>
 
     <div class="usedTechnology">
-      <p>Used: C#</p>
+      <p>Used: Visual Basic [homework]</p>
     </div>
 
     <div class="screenShotContent">
@@ -93,6 +121,34 @@
       </a>
     </div>
   </div>
-  <!-- 3rd, end -->
+  <!-- 4th, end -->
+
+  <!-- 5th, start -->
+  <div class="description">
+    <div class="descriptionTitle">
+      <h3>Scrape Japanese local government urls from a site</h3>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: Visual Basic Application [business]</p>
+    </div>
+
+    <div class="screenShotContent">
+        <img class="screenShot"
+              src="{{ URL::asset('images/noImageLogo.png') }}"
+              alt="Web scraping an existed League of Legends site">
+    </div>
+
+    <div class="sentence">
+      <p>The project doesn't work because the target site was disappeared.</p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/ScrapingHTMLByVBA">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div>
+  <!-- 5th, end -->
 
 @endsection
