@@ -102,8 +102,13 @@
     <ul>
       <li>Company Name: Tri-force Corporation</li>
       <li>Company Location: Tokyo, Japan</li>
-      <li>Role: Web and VBA Software Developer</li>
-      <li>Used: Excel VBA, SQL, SQL Server, HTML, CSS, JavaScript, ASP</li>
+      <li>Role: Full Stack Web Developer</li>
+      <li>Used:</li>
+      <ul>
+        <li>Front-End: HTML, CSS, JavaScript</li>
+        <li>Back-End: ASP, Excel VBA</li>
+        <li>Other: SQL, SQL Server</li>
+      </ul>
 
       <li>Tasks</li>
       <ol>
@@ -130,7 +135,7 @@
 
       <li>Tasks</li>
       <ul>
-        <li>Abridgment</li>
+        <li>Abridgment because most of jobs are not related to a developer.</li>
       </ul>
       <!--
       <a href="/job/nii">Link to memoriable task</a>
