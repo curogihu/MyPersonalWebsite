@@ -100,7 +100,7 @@
   <div class="description">
     <p>August 2007 - March 2009<p>
     <ul>
-      <li>Company Name: Tri-force Corporation/li>
+      <li>Company Name: Tri-force Corporation</li>
       <li>Company Location: Tokyo, Japan</li>
       <li>Role: Web and VBA Software Developer</li>
       <li>Used: Excel VBA, SQL, SQL Server, HTML, CSS, JavaScript, ASP</li>
