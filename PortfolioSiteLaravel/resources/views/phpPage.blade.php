@@ -4,9 +4,62 @@
 
   <h2 class="pageTitle">PHP projects</h2>
 
-  <!-- 1st, start -->
   <div class="description">
+    <div class="descriptionTitle">
+      <h3>My portfolio site</h3>
+    </div>
 
+    <div class="usedTechnology">
+      <p>Used: PHP, Laravel</p>
+    </div>
+
+    <div class="screenShotContent">
+      <img class="screenShot"
+            src="{{ URL::asset('images/noImageLogo.png') }}"
+            alt="My portfolio site">
+    </div>
+
+    <div class="sentence">
+      <p>My portfolio site. Now you watch itself.</p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/MyPersonalWebsite">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div> <!-- end div class="description" -->
+
+  <div class="description">
+    <div class="descriptionTitle">
+      <h3>Web scrape a site, indeed and collect information.</h3>
+    </div>
+
+    <div class="usedTechnology">
+      <p>Used: PHP, MySQL, Laravel, AngularJS</p>
+    </div>
+
+    <div class="screenShotContent">
+      <img class="screenShot"
+            src="{{ URL::asset('images/noImageLogo.png') }}"
+            alt="Web scrape a site, indeed and collect information.">
+    </div>
+
+    <div class="sentence">
+      <p>
+        Web scrape a site, indeed and collect information.
+      </p>
+    </div>
+
+    <div class="githubLink">
+      <a href="https://github.com/curogihu/SearchIndeed">
+        <span class="fa fa-github fa-3x"></span>
+      </a>
+    </div>
+  </div> <!-- end div class="description" -->
+
+
+  <div class="description">
     <div class="descriptionTitle">
       <h3>LoL Trend Research</h3>
     </div>
@@ -35,10 +88,8 @@
         <span class="fa fa-github fa-3x"></span>
       </a>
     </div>
-  </div>
-  <!-- 1st, end -->
+  </div> <!-- end div class="description" -->
 
-  <!-- 2nd, start -->
   <div class="description">
     <div class="descriptionTitle">
       <h3>Web scraping an existed League of Legends site</h3>
@@ -65,12 +116,9 @@
         <span class="fa fa-github fa-3x"></span>
       </a>
     </div>
-  </div>
-  <!-- 2nd, end -->
+  </div> <!-- end div class="description" -->
 
-  <!-- 3rd, start -->
   <div class="description">
-
     <div class="descriptionTitle">
       <h3>Web scraping and posting to WordPress</h3>
     </div>
@@ -96,13 +144,9 @@
         <span class="fa fa-github fa-3x"></span>
       </a>
     </div>
-  </div>
+  </div> <!-- end div class="description" -->
 
-  <!-- 3rd, end -->
-
-  <!-- 4th, start -->
   <div class="description">
-
     <div class="descriptionTitle">
       <h3>Programming test for applying a company</h3>
     </div>
@@ -114,7 +158,7 @@
     <div class="screenShotContent">
       <img class="screenShot"
             src="{{ URL::asset('images/noImageLogo.png') }}"
-            alt="The image of League of Lengteds information site">
+            alt="Programming test for applying a company">
     </div>
 
     <div class="sentence">
@@ -128,8 +172,6 @@
         <span class="fa fa-github fa-3x"></span>
       </a>
     </div>
-  </div>
-
-  <!-- 4th, end -->
+  </div> <!-- end div class="description" -->
 
 @endsection
