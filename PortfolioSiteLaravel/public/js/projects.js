@@ -4,7 +4,7 @@ var projects =
       "category"          : "PHP",
       "orderId"           : 1,
       "projectTitle"      : "Programming test for applying a company",
-      "usedTechnology"    : "PHP",
+      "usedTechnology"    : "PHP, Scrollsguide API",
       "screenShotFileName": "",
       "websiteUrl"        : "",
       "sentence"          : "This was a programming quiz for applying a company in Surrey, BC, Canada. " +

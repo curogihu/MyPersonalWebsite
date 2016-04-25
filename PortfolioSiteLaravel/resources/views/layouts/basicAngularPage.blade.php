@@ -13,7 +13,7 @@
   <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.1.min.js') }}"></script>
   <script src="{{ URL::asset('js/angular.min.js') }}"></script>
   <script src="{{ URL::asset('js/projects.js') }}"></script>
-  <script src="{{ URL::asset('js/ProjectsController.js') }}"></script>
+  <script src="{{ URL::asset('js/projectsController.js') }}"></script>
 </head>
 
 <body ng-controller="ProjectsController as ProjectsCtrl">
@@ -35,13 +35,15 @@
                 <p>Used: <% project.usedTechnology %></p>
               </div> <!-- div class="usedTechnology" -->
 
+<!--
               <div class="screenShotContent">
                 <a href="http://loltrendresearch.xyz/" class="overwhite">
                   <img class="screenShot"
                         src="{{ URL::asset('images/loltrendreseachSiteImage.png') }}"
                         alt="The image of League of Lengteds information site">
                 </a>
-              </div> <!-- div class="screenShotContent" -->
+              </div> 
+              --> <!-- div class="screenShotContent" -->
 
               <div class="sentence">
                 <p>
