@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Personal Website</title>
+  <title>Yony's portfolio site</title>
   <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-responsive.min.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" type="text/css">
@@ -55,6 +55,7 @@
                 </a>
               </div> <!-- div class="githubLink" -->
             </div> <!-- div class="description" -->
+            <hr>
           </div> <!-- div ng-repeat -->
         </div>
       </div>

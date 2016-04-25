@@ -1,6 +1,7 @@
 body{
-  margin:0px;          /* ページ全体のmargin */
-  padding:0px;         /* ページ全体のpadding */
+  /*margin:0px;          /* ページ全体のmargin */
+  margin: 0 10px 0 10px;
+  padding: 0;         /* ページ全体のpadding */
   text-align:center;   /* 下記のautoに未対応用のセンタリング */
 }
 
@@ -246,5 +247,5 @@ a.overwhite:hover img {
 
     flex-basis: 100%;
     -webkit-flex-basis: 100%;
-}
   }
+}

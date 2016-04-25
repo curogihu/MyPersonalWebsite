@@ -1,6 +1,6 @@
 <div id="header">
   <div id="titleColumn">
-    <h1>Being a needed developer, <br>Yony in Vancouver</h1>
+    <h1>Yony's portfolio site</h1>
   </div>
 
   <div id="categoryColumn">
