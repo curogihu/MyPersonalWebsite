@@ -1,186 +1,71 @@
 <!DOCTYPE html>
-<html lang="ja" ng-app="WorkExperienceApp">
+<html lang="ja"  ng-app="ProjectsApp">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Personal Website</title>
+  <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-responsive.min.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ URL::asset('css/bootstrap-social.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('css/default.css') }}" type="text/css">
-  <script src="{{{asset('/js/angular.min.js')}}}"></script>
+
+  <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.1.min.js') }}"></script>
+  <script src="{{ URL::asset('js/angular.min.js') }}"></script>
+  <script src="{{ URL::asset('js/projects.js') }}"></script>
+  <script src="{{ URL::asset('js/ProjectsController.js') }}"></script>
 </head>
 
-<body ng-controller="WorkExperienceController as WorkExperienceCtrl">
-
+<body ng-controller="ProjectsController as ProjectsCtrl">
   <div id="container">
     @include('layouts.header')
 
-    <div id="contents">
-<!--
-      <div ng-repeat="(key, val) in WorkExperienceCtrl.workExperiences | filter: key='pasco'">
-        <p><%key%>,<%val%></p>
-        <h2>CompanyName</h2>
-        <p ng-if='key == "{{$companyName}}"'>
-        <p>
-          <% val.companyNameKey %><br>
-          <% val.companyName %><br>
-          <% val.importTask %><br>
-          <% val.story %><br>
-          <% val.retirementReason %><br>
+      <div id="contents">
+        <div id="displayContent">
 
-        </p>
-      </div>
--->
-      <div ng-if="'{{$companyName}}' == 'softbankmobile'">
-        <h2>Company Name</h2>
-        <p>Softbank Mobile</p>
+          <div ng-repeat="project in ProjectsCtrl.projects" ng-cloak>
+            <h2 class="pageTitle"><% project.category %> project</h2>
 
-        <h3>Workplace location</h3>
-        <p>Tokyo, Japan</p>
+            <div class="description">
+              <div class="descriptionTitle">
+                <h3><% project.projectTitle %></h3>
+              </div> <!-- div class="descriptionTitle" -->
 
-        <h3>Memoriable task</h3>
-        <p></p>
+              <div class="usedTechnology">
+                <p>Used: <% project.usedTechnology %></p>
+              </div> <!-- div class="usedTechnology" -->
 
-        <h3>Background</h3>
-        <p></p>
+              <div class="screenShotContent">
+                <a href="http://loltrendresearch.xyz/" class="overwhite">
+                  <img class="screenShot"
+                        src="{{ URL::asset('images/loltrendreseachSiteImage.png') }}"
+                        alt="The image of League of Lengteds information site">
+                </a>
+              </div> <!-- div class="screenShotContent" -->
 
-        <h3>Retirement Reason</h3>
-        <p></p>
-      </div>
+              <div class="sentence">
+                <p>
+                  <% project.sentence %>
+                </p>
+              </div> <!-- div class="sentence" -->
 
-      <div ng-if="'{{$companyName}}' == 'pasco'">
-        <h2>Company Name</h2>
-        <p>Pasco Corporation</p>
-
-        <h3>Workplace location</h3>
-        <p>Tokyo, Japan</p>
-
-        <h3>Memoriable task</h3>
-        <p></p>
-
-        <h3>Background</h3>
-        <p></p>
-
-        <h3>Retirement Reason</h3>
-        <p></p>
+              <div class="githubLink">
+                <a href="<% project.githubLink %>">
+                  <span class="fa fa-github fa-3x"></span>
+                </a>
+              </div> <!-- div class="githubLink" -->
+            </div> <!-- div class="description" -->
+          </div> <!-- div ng-repeat -->
+        </div>
       </div>
 
-      <div ng-if="'{{$companyName}}' == 'sbi'">
-        <h2>Company Name</h2>
-        <p>SBI Business Support</p>
-
-        <h3>Workplace location</h3>
-        <p>Tokyo, Japan</p>
-
-        <h3>Memoriable task</h3>
-        <p></p>
-
-        <h3>Background</h3>
-        <p></p>
-
-        <h3>Retirement Reason</h3>
-        <p></p>
-      </div>
-
-      <div ng-if="'{{$companyName}}' == 'triforce'">
-        <h2>Company Name</h2>
-        <p>Tri-force Corporation</p>
-
-        <h3>Workplace location</h3>
-        <p>Tokyo, Japan</p>
-
-        <h3>Memoriable task</h3>
-        <p></p>
-
-        <h3>Background</h3>
-        <p></p>
-
-        <h3>Retirement Reason</h3>
-        <p></p>
-      </div>
-
-      <div ng-if="'{{$companyName}}' == 'nii'">
-        <h2>Company Name</h2>
-        <p>Nippon Information Industry Corp.</p>
-
-        <h3>Workplace location</h3>
-        <p>Tokyo, Japan</p>
-
-        <h3>Memoriable task</h3>
-        <p></p>
-
-        <h3>Background</h3>
-        <p></p>
-
-        <h3>Retirement Reason</h3>
-        <p></p>
-      </div>
-
+    <div class="pageUp">
+      <a href="#top" class="scroll-link"></a>
     </div>
 
     @include('layouts.footer')
   </div>
 
-  <script type="text/javascript">
-    /*
-    after finishing base portfolio page, try replacing ng-if with ng-repeat + filter
-    */
-    var workExperiences =
-      {
-        "softbankmobile":
-          {
-            "companyNameKey": "softbankmobile",
-            "companyName": "Softbank Mobile",
-            "importTask": "abc",
-            "story": "テスト１",
-            "retirementReason": "aaaa"
-          },
-
-        "pasco":
-           {
-            "companyNameKey": "pasco",
-            "companyName": "Pasco",
-            "importTask": "abc",
-            "story": "テスト2",
-            "retirementReason": "bbbb"
-          },
-
-        "sbi":
-           {
-            "companyNameKey": "sbi",
-            "companyName": "SBI",
-            "importTask": "abc",
-            "story": "テスト１",
-            "retirementReason": "aaaa"
-          },
-
-        "triforce":
-          {
-            "companyNameKey": "triforce",
-            "companyName": "Tri force",
-            "importTask": "abc",
-            "story": "テスト１",
-            "retirementReason": "aaaa"
-          },
-
-        "nii":
-           {
-            "companyNameKey": "nii",
-            "companyName": "NII",
-            "importTask": "abc",
-            "story": "テスト１",
-            "retirementReason": "aaaa"
-          },
-      };
-
-    var app = angular.module('WorkExperienceApp', [], function($interpolateProvider) {
-        $interpolateProvider.startSymbol('<%');
-        $interpolateProvider.endSymbol('%>');
-    });
-
-    app.controller('WorkExperienceController', function($scope, $http){
-      this.workExperiences = angular.fromJson(workExperiences);
-    });
-
-  </script>
-
+  <script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 </body>
 </html>

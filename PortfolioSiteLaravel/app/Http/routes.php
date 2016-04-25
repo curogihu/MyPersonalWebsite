@@ -13,10 +13,15 @@
 
 Route::get('/', 'DisplayController@displayDeveloperPage');
 
+/*
 Route::get('/php', 'DisplayController@displayPhpPage');
 Route::get('/scala', 'DisplayController@displayScalaPage');
-Route::get('/hobby', 'DisplayController@displayHobbyPage');
 Route::get('/others', 'DisplayController@displayOtherPage');
+*/
+Route::get('/projects', 'DisplayController@displayProjectsPage');
+
+Route::get('/hobby', 'DisplayController@displayHobbyPage');
+
 
 Route::get('/job/{companyName}', 'DisplayController@displaySchedulePage');
 

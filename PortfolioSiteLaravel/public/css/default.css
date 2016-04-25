@@ -119,9 +119,12 @@ a.overwhite:hover img {
 
   height: 70px;
   line-height: 70px;
-
+/*
   flex-basis: 20%;
   -webkit-flex-basis: 20%;
+*/
+  flex-basis: 33.33333%;
+  -webkit-flex-basis: 33.33333%;
 }
 
 .categoryItem1 {
@@ -222,9 +225,12 @@ a.overwhite:hover img {
 
     height: 70px;
     line-height: 70px;
-
+/*
     flex-basis: 20%;
     -webkit-flex-basis: 20%;
+*/
+    flex-basis: 33.33333%;
+    -webkit-flex-basis: 33.33333%;
   }
 
   #categoryColumn {

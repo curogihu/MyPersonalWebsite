@@ -13,7 +13,7 @@ class DisplayController extends Controller
     {
       return view('developerPage');
     }
-
+/*
     public function displayPhpPage()
     {
       return view('phpPage');
@@ -24,14 +24,19 @@ class DisplayController extends Controller
       return view('scalaPage');
     }
 
-    public function displayHobbyPage()
-    {
-      return view('hobbyPage');
-    }
-
     public function displayOtherPage()
     {
       return view('otherPage');
+    }
+*/
+    public function displayProjectsPage()
+    {
+      return view('projectsPage');
+    }
+
+    public function displayHobbyPage()
+    {
+      return view('hobbyPage');
     }
 
     public function displayJobPage($companyName)
