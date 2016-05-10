@@ -8,6 +8,7 @@
     <ul>
       <li>Name: Yosuke Ito</li>
       <li>Language: Japanese, English</li>
+      <li>My resume: <a href="etc/yosukeito_resume.pdf">Here</a>
     </ul>
   </div>
 
